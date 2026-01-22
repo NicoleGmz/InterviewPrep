@@ -9,3 +9,6 @@ java {
 kotlin{
     jvmToolchain(17)
 }
+dependencies{
+    implementation(libs.corutines.core)
+}
