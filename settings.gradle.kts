@@ -19,6 +19,11 @@ dependencyResolutionManagement {
     }
 }
 
+plugins {
+    id("org.gradle.toolchains.foojay-resolver-convention").version("1.0.0")
+}
+
 rootProject.name = "InterviewPrep"
 include(":app")
- 
+include(":domain")
+include(":data")
